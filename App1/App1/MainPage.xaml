@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="black"
+    Foreground="White">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Name="lblWeatherCity" FontSize="40" VerticalAlignment="Top" HorizontalAlignment="left" Margin="50,100,0,0" Grid.Row="0" Grid.Column="0"/>
+        <Image Grid.Row="0" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="left"  Margin="250,100,0,0" Name="weatherImage" Width="150" Height="150"></Image>
+        <TextBlock Name="lblTemp" FontSize="40" VerticalAlignment="Top" HorizontalAlignment="left" Margin="50,150,0,0" Grid.Row="0" Grid.Column="0"/>
+        <TextBlock Name="lblWeatherType" FontSize="15" VerticalAlignment="Top" HorizontalAlignment="left" Margin="50,200,0,0" Grid.Row="0" Grid.Column="0"/>
+
+        <TextBlock Name="lblCalender" FontSize="25" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,100,50,0" Grid.Row="0" Grid.Column="1"/>
+        <TextBlock Name="lblClock" FontSize="45" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,130,50,0" Grid.Row="0" Grid.Column="1"/>
+
+        <MediaPlayerElement Name="mpRadio" Grid.Row="1" Grid.Column="0" Width="200" Height="200"></MediaPlayerElement>
+
+
+        <TextBlock Name="lblForeCastDay1" FontSize="15" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="50,0,0,140" Grid.Row="1" Grid.Column="0"/>
+        <TextBlock Name="lblForeCastDay2" FontSize="15" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="50,0,0,110" Grid.Row="1" Grid.Column="0"/>
+        <TextBlock Name="lblForeCastDay3" FontSize="15" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="50,0,0,80"  Grid.Row="1" Grid.Column="0"/>
+        <TextBlock Name="lblForeCastDay4" FontSize="15" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="50,0,0,50" Grid.Row="1" Grid.Column="0"/>
+        
+        <TextBlock Name="lblForeCast1" FontSize="15" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="130,0,0,140" Grid.Row="1" Grid.Column="0"/>
+        <TextBlock Name="lblForeCast2" FontSize="15" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="130,0,0,110" Grid.Row="1" Grid.Column="0"/>
+        <TextBlock Name="lblForeCast3" FontSize="15" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="130,0,0,80" Grid.Row="1" Grid.Column="0"/>
+        <TextBlock Name="lblForeCast4" FontSize="15" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="130,0,0,50" Grid.Row="1" Grid.Column="0"/>
+
+        <Image Name="lblForeCastIcon1" Width="30" Height="30" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="180,0,0,135" Grid.Row="1" Grid.Column="0"/>
+        <Image Name="lblForeCastIcon2" Width="30" Height="30" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="180,0,0,105" Grid.Row="1" Grid.Column="0"/>
+        <Image Name="lblForeCastIcon3" Width="30" Height="30" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="180,0,0,75" Grid.Row="1" Grid.Column="0"/>
+        <Image Name="lblForeCastIcon4" Width="30" Height="30" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="180,0,0,45" Grid.Row="1" Grid.Column="0"/>
+
+
+    </Grid>
+</Page>
