@@ -83,7 +83,7 @@ namespace App1.Model
         [DataMember]
         public double speed { get; set; }
         [DataMember]
-        public int deg { get; set; }
+        public double deg { get; set; }
     }
     [DataContract]
     public class Clouds
@@ -167,7 +167,7 @@ namespace App1.Model
         [DataMember]
         public string cod { get; set; }
         [DataMember]
-        public double message { get; set; }
+        public string message { get; set; }
         [DataMember]
         public int cnt { get; set; }
         [DataMember]

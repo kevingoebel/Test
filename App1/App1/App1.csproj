@@ -108,9 +108,13 @@
     <None Include="App1_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Grammar\grammar.xml" />
+    <Content Include="Image\arrowdown.png" />
+    <Content Include="Image\arrowup.png" />
     <Content Include="Image\Clouds.png" />
     <Content Include="Image\FewClouds.png" />
     <Content Include="Image\Lightning.png" />
+    <Content Include="Image\Mist.png" />
     <Content Include="Image\Rain.png" />
     <Content Include="Image\Snow.png" />
     <Content Include="Image\Sun.png" />
